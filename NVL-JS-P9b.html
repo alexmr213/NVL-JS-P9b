@@ -11,7 +11,7 @@
            
 
 
-            var conciertos = [
+           /* var conciertos = [
                 ["Lunes, Madrid"],
                 ["Martes, Sevilla"],
                 ["Miercoles, Barcelona"],
@@ -23,9 +23,33 @@
 
             for(var i=0;i<conciertos.length;i++){
             document.write(conciertos[i]+"<br>");
+            }*/
+
+            var fecha = [
+                "Lunes", 
+                "Martes", 
+                "Miercoles", 
+                "Jueves", 
+                "Viernes", 
+                "Sábado","Domingo"];
+             var localizacion = [
+                "Madrid",
+             "Sevilla",
+             " Barcelona",
+             "Valencia",
+             " Zaragoza",
+             " Bilbao",
+             " Donosti"]
+            ;
+
+           
+
+            for(var i=0;i<fecha.length;i++){
+
+            document.write([i+1]+" "+fecha[i]+" , "+localizacion[i]+"<br>");
+
             }
-
-
+           
 
 
 
